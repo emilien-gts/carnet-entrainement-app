@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace App\Core\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -12,6 +12,6 @@ class DefaultController extends AbstractController
     #[Route('')]
     public function index(): Response
     {
-        return $this->redirectToRoute('app_dashboard_index');
+        return $this->redirectToRoute('app_dashboard_dashboard_index');
     }
 }

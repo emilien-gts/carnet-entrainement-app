@@ -1,0 +1,1261 @@
+{
+  "data": [
+    {
+      "nom": "Développé assis à la machine convergente",
+      "description": "Cet exercice vise à développer les muscles pectoraux en utilisant une machine convergente.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé couché avec haltères",
+      "description": "Cet exercice consiste à effectuer un développé couché en utilisant des haltères.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé couché à la barre",
+      "description": "Cet exercice implique de faire un développé couché en utilisant une barre.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé couché à la machine convergente",
+      "description": "Cet exercice se fait sur une machine convergente pour renforcer les muscles pectoraux.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé décliné avec haltères",
+      "description": "Cet exercice consiste à effectuer un développé décliné en utilisant des haltères.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé décliné à la barre",
+      "description": "Cet exercice implique de faire un développé décliné en utilisant une barre.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé incliné avec haltères",
+      "description": "Cet exercice consiste à effectuer un développé incliné en utilisant des haltères.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé incliné à la barre",
+      "description": "Cet exercice implique de faire un développé incliné en utilisant une barre.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Développé incliné à la machine convergente",
+      "description": "Cet exercice se fait sur une machine convergente pour renforcer les muscles pectoraux inclinés.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Dips prise large buste penché",
+      "description": "Cet exercice cible les triceps et les pectoraux en effectuant des dips avec un buste penché en avant.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Pull over avec barre ou haltère",
+      "description": "Cet exercice vise principalement les muscles du dos en effectuant un pull over avec une barre ou un haltère.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Pull over en travers d’un banc avec barre ou haltère",
+      "description": "Cet exercice implique de faire un pull over en travers d'un banc en utilisant une barre ou un haltère pour travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Écarté couché avec haltères",
+      "description": "Cet exercice consiste à effectuer un écarté couché en utilisant des haltères pour cibler les pectoraux.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["deltoids", "triceps"]
+    },
+    {
+      "nom": "Écarté décliné avec haltères",
+      "description": "Cet exercice vise à développer les pectoraux inférieurs en effectuant un écarté décliné avec des haltères.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["deltoids", "triceps"]
+    },
+    {
+      "nom": "Écarté incliné avec haltères",
+      "description": "Cet exercice implique de faire un écarté incliné en utilisant des haltères pour cibler les pectoraux supérieurs.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["deltoids", "triceps"]
+    },
+    {
+      "nom": "Écarté pectoraux à la machine",
+      "description": "Cet exercice se fait sur une machine pour travailler les muscles pectoraux.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["deltoids", "triceps"]
+    },
+    {
+      "nom": "Pompes prise large au sol",
+      "description": "Cet exercice cible les pectoraux en effectuant des pompes avec une prise large au sol.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Pull over à la poulie basse",
+      "description": "Cet exercice implique de faire un pull over en utilisant une poulie basse pour travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Écarté à la poulie vis à vis basse",
+      "description": "Cet exercice se fait à la poulie vis à vis basse pour cibler les pectoraux.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["deltoids", "triceps"]
+    },
+    {
+      "nom": "Écarté à la poulie vis à vis haute",
+      "description": "Cet exercice se fait à la poulie vis à vis haute pour cibler les pectoraux.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["deltoids", "triceps"]
+    },
+    {
+      "nom": "Développé couché à la machine",
+      "description": "Cet exercice implique de faire un développé couché sur une machine pour renforcer les muscles pectoraux.",
+      "muscle_principal": "chest",
+      "muscles_secondaires": ["triceps", "deltoids"]
+    },
+    {
+      "nom": "Élévation latérale avec haltères",
+      "description": "Cet exercice vise à renforcer les muscles deltoïdes en effectuant des élévations latérales avec des haltères.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Élévation latérale à un bras penché sur le côté",
+      "description": "Cet exercice consiste à effectuer des élévations latérales à un bras tout en étant penché sur le côté pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Élévation latérale à un bras sur banc incliné",
+      "description": "Cet exercice implique de faire des élévations latérales à un bras tout en étant sur un banc incliné pour cibler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Développé épaules Arnold avec haltères",
+      "description": "Cet exercice est une variante du développé épaules qui utilise des haltères pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Développé épaules à la machine",
+      "description": "Cet exercice se fait sur une machine spécifique pour renforcer les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Développé inversé au poids de corps",
+      "description": "Cet exercice implique de faire un développé inversé en utilisant le poids de corps pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Oiseau avec haltères",
+      "description": "Cet exercice cible les muscles deltoïdes en effectuant des mouvements d'oiseau avec des haltères.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Oiseau à la machine",
+      "description": "Cet exercice se fait sur une machine spécifique pour travailler les muscles deltoïdes avec des mouvements d'oiseau.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Oiseau à la poulie haute",
+      "description": "Cet exercice implique de faire des mouvements d'oiseau à la poulie haute pour cibler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Oiseau à un bras allongé",
+      "description": "Cet exercice cible les muscles deltoïdes en effectuant des mouvements d'oiseau à un bras tout en étant allongé.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Oiseau sur banc incliné avec haltères",
+      "description": "Cet exercice implique de faire des mouvements d'oiseau avec des haltères tout en étant sur un banc incliné pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Pompes indiennes",
+      "description": "Cet exercice est une variante des pompes qui cible principalement les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["chest", "triceps"]
+    },
+    {
+      "nom": "Élévation frontale avec haltères",
+      "description": "Cet exercice vise à renforcer les muscles deltoïdes en effectuant des élévations frontales avec des haltères.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Élévation frontale avec une barre",
+      "description": "Cet exercice consiste à effectuer des élévations frontales en utilisant une barre pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Élévation frontale à la poulie",
+      "description": "Cet exercice implique de faire des élévations frontales à la poulie pour cibler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Élévation frontale sur banc incliné avec barre ou haltères",
+      "description": "Cet exercice se fait sur un banc incliné en effectuant des élévations frontales avec une barre ou des haltères pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Élévation latérale à la machine",
+      "description": "Cet exercice cible les muscles deltoïdes en effectuant des élévations latérales à la machine spécifique.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "L-Fly allongé à la poulie basse",
+      "description": "Cet exercice implique de faire un L-Fly allongé à la poulie basse pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "L-Fly assis à la poulie basse",
+      "description": "Cet exercice se fait en position assise à la poulie basse en effectuant un L-Fly pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "L-Fly avec haltère",
+      "description": "Cet exercice consiste à effectuer un L-Fly en utilisant un haltère pour renforcer les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "L-Fly debout à la poulie",
+      "description": "Cet exercice vise à renforcer les muscles deltoïdes en effectuant un L-Fly debout à la poulie.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Rotation externe debout avec barre",
+      "description": "Cet exercice implique de faire une rotation externe tout en étant debout avec une barre pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Rotation interne allongé à la poulie basse",
+      "description": "Cet exercice consiste à effectuer une rotation interne tout en étant allongé à la poulie basse pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Rotation interne assis à la poulie basse",
+      "description": "Cet exercice se fait en position assise à la poulie basse en effectuant une rotation interne pour renforcer les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Rotation interne avec haltère",
+      "description": "Cet exercice vise à renforcer les muscles deltoïdes en effectuant une rotation interne avec un haltère.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Rotation interne debout à la poulie",
+      "description": "Cet exercice implique de faire une rotation interne tout en étant debout à la poulie pour travailler les muscles deltoïdes.",
+      "muscle_principal": "deltoids",
+      "muscles_secondaires": ["triceps"]
+    },
+    {
+      "nom": "Rowing à la T-bar",
+      "description": "Cet exercice implique de faire un rowing à la T-bar pour travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à un bras avec haltère",
+      "description": "Cet exercice consiste à effectuer un rowing à un bras en utilisant un haltère pour travailler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à un bras à la machine",
+      "description": "Cet exercice se fait à la machine en effectuant un rowing à un bras pour cibler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing barre à la Yates en pronation",
+      "description": "Cet exercice implique de faire un rowing barre à la Yates en pronation pour renforcer les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing barre à la Yates en supination",
+      "description": "Cet exercice consiste à effectuer un rowing barre à la Yates en supination pour travailler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing barre buste penché en pronation",
+      "description": "Cet exercice cible les muscles du dos en effectuant un rowing barre en pronation avec le buste penché.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing barre en supination",
+      "description": "Cet exercice vise à renforcer les muscles du dos et des bras en effectuant un rowing barre en supination.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Soulevé de terre partiel avec barre",
+      "description": "Cet exercice implique de faire un soulevé de terre partiel avec une barre pour travailler les muscles du dos et des jambes.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["hamstrings"]
+    },
+    {
+      "nom": "Rowing assis à la machine",
+      "description": "Cet exercice se fait sur une machine spécifique en effectuant un rowing assis pour travailler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing assis à la poulie basse à un bras",
+      "description": "Cet exercice implique de faire un rowing assis à la poulie basse avec un bras pour cibler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing assis à la poulie basse en pronation",
+      "description": "Cet exercice cible les muscles du dos en effectuant un rowing assis à la poulie basse en pronation pour renforcer les bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing assis à la poulie basse en supination",
+      "description": "Cet exercice vise à renforcer les muscles du dos et des bras en effectuant un rowing assis à la poulie basse en supination.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing assis à la poulie basse prise neutre",
+      "description": "Cet exercice se fait à la poulie basse avec une prise neutre en effectuant un rowing assis pour travailler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à la poulie basse sur banc incliné",
+      "description": "Cet exercice implique de faire un rowing à la poulie basse tout en étant sur un banc incliné pour cibler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à la poulie haute à un bras",
+      "description": "Cet exercice se fait à la poulie haute en effectuant un rowing à un bras pour travailler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à la poulie haute en prise neutre",
+      "description": "Cet exercice implique de faire un rowing à la poulie haute avec une prise neutre pour renforcer les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à la poulie haute en pronation",
+      "description": "Cet exercice vise à renforcer les muscles du dos en effectuant un rowing à la poulie haute en pronation.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à la poulie haute en supination",
+      "description": "Cet exercice cible les muscles du dos et des bras en effectuant un rowing à la poulie haute en supination.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à la T-bar à la machine",
+      "description": "Cet exercice consiste à effectuer un rowing à la T-bar sur une machine spécifique pour renforcer les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing à un bras à la poulie basse",
+      "description": "Cet exercice implique de faire un rowing à un bras à la poulie basse pour cibler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing barre allongé sur banc",
+      "description": "Cet exercice se fait en position allongée sur un banc en effectuant un rowing barre pour travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing debout prise serrée avec barre",
+      "description": "Cet exercice implique de faire un rowing debout en utilisant une prise serrée avec une barre pour renforcer les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Rowing inversé au poids de corps",
+      "description": "Cet exercice cible les muscles du dos en effectuant un rowing inversé en utilisant le poids de corps.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Shrug avec barre",
+      "description": "Cet exercice vise à renforcer les muscles du trapèze en effectuant des shrugs avec une barre.",
+      "muscle_principal": "trapezius",
+      "muscles_secondaires": ["deltoids"]
+    },
+    {
+      "nom": "Shrug avec haltères",
+      "description": "Cet exercice consiste à effectuer des shrugs en utilisant des haltères pour travailler les muscles du trapèze.",
+      "muscle_principal": "trapezius",
+      "muscles_secondaires": ["deltoids"]
+    },
+    {
+      "nom": "Shrug à la machine",
+      "description": "Cet exercice se fait sur une machine spécifique en effectuant des shrugs pour renforcer les muscles du trapèze.",
+      "muscle_principal": "trapezius",
+      "muscles_secondaires": ["deltoids"]
+    },
+    {
+      "nom": "Shrug à la machine à mollets",
+      "description": "Cet exercice implique de faire des shrugs à la machine à mollets pour travailler les muscles du trapèze.",
+      "muscle_principal": "trapezius",
+      "muscles_secondaires": ["deltoids"]
+    },
+    {
+      "nom": "Shrug à la machine convergente",
+      "description": "Cet exercice vise à renforcer les muscles du trapèze en effectuant des shrugs sur une machine convergente.",
+      "muscle_principal": "trapezius",
+      "muscles_secondaires": ["deltoids"]
+    },
+    {
+      "nom": "Shrug à la poulie",
+      "description": "Cet exercice consiste à effectuer des shrugs à la poulie pour travailler les muscles du trapèze.",
+      "muscle_principal": "trapezius",
+      "muscles_secondaires": ["deltoids"]
+    },
+    {
+      "nom": "Traction prise large devant à la barre fixe",
+      "description": "Cet exercice consiste à effectuer des tractions avec une prise large en utilisant une barre fixe pour travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction prise large nuque à la barre fixe",
+      "description": "Cet exercice implique de faire des tractions avec une prise large au niveau de la nuque en utilisant une barre fixe pour renforcer les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction prise neutre à la barre fixe",
+      "description": "Cet exercice se fait en utilisant une prise neutre avec une barre fixe pour effectuer des tractions et travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction prise serrée en pronation à la barre fixe",
+      "description": "Cet exercice consiste à effectuer des tractions avec une prise serrée en pronation en utilisant une barre fixe pour cibler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction prise supination cambré à la barre fixe",
+      "description": "Cet exercice vise à renforcer les muscles du dos en effectuant des tractions avec une prise en supination et en cambrant le dos à la barre fixe.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Pull over assis à la machine",
+      "description": "Cet exercice se fait sur une machine spécifique en effectuant un pull over assis pour travailler les muscles du dos et de la poitrine.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Traction à la machine convergente",
+      "description": "Cet exercice implique de faire des tractions sur une machine convergente pour renforcer les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction à la poulie haute à un bras",
+      "description": "Cet exercice se fait à la poulie haute en effectuant des tractions avec un bras pour cibler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction à la poulie haute devant",
+      "description": "Cet exercice consiste à effectuer des tractions à la poulie haute en position frontale pour travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction à la poulie haute nuque",
+      "description": "Cet exercice implique de faire des tractions à la poulie haute au niveau de la nuque pour renforcer les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction à la poulie haute prise neutre",
+      "description": "Cet exercice se fait à la poulie haute en utilisant une prise neutre pour effectuer des tractions et travailler les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction à la poulie haute prise serrée en pronation",
+      "description": "Cet exercice consiste à effectuer des tractions à la poulie haute avec une prise serrée en pronation pour cibler les muscles du dos et des bras.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Traction à la poulie haute prise supination",
+      "description": "Cet exercice vise à renforcer les muscles du dos en effectuant des tractions à la poulie haute avec une prise en supination.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Pull over debout à la poulie haute",
+      "description": "Cet exercice se fait debout à la poulie haute en effectuant un pull over pour travailler les muscles du dos et de la poitrine.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Traction à la machine",
+      "description": "Cet exercice implique de faire des tractions sur une machine spécifique pour renforcer les muscles du dos.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["biceps"]
+    },
+    {
+      "nom": "Barre au front allongé à la poulie basse",
+      "description": "Cet exercice consiste à utiliser une barre au front allongé à la poulie basse pour travailler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Barre au front triceps avec barre ou haltères",
+      "description": "Cet exercice implique l'utilisation d'une barre ou d'haltères pour effectuer des extensions au front afin de cibler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Développé couché prise serrée à la barre",
+      "description": "Cet exercice se fait en utilisant une prise serrée à la barre lors du développé couché pour travailler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Dips à la machine",
+      "description": "Cet exercice implique de faire des dips à l'aide d'une machine spécifique pour cibler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Dips entre deux bancs",
+      "description": "Cet exercice consiste à effectuer des dips en utilisant deux bancs pour travailler les triceps et la poitrine.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Dips prise serrée",
+      "description": "Cet exercice se fait en utilisant une prise serrée lors des dips pour cibler les triceps et la poitrine.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Extension des triceps à la poulie haute à genoux",
+      "description": "Cet exercice implique de faire des extensions des triceps à la poulie haute tout en étant à genoux pour renforcer les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps contre un mur au poids de corps",
+      "description": "Cet exercice consiste à effectuer des extensions des triceps contre un mur en utilisant le poids de corps pour travailler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension nuque avec barre ou haltère",
+      "description": "Cet exercice vise à renforcer les triceps en effectuant des extensions à la nuque avec une barre ou un haltère.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension nuque à la poulie",
+      "description": "Cet exercice se fait à la poulie en effectuant des extensions à la nuque pour cibler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension nuque à un bras avec haltère",
+      "description": "Cet exercice implique de faire des extensions à la nuque à un bras en utilisant un haltère pour travailler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Magic triceps avec barre ou haltère",
+      "description": "Cet exercice consiste à effectuer des mouvements de magic triceps avec une barre ou un haltère pour cibler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Pull over Press avec barre ou haltère",
+      "description": "Cet exercice implique d'utiliser une barre ou un haltère pour effectuer des mouvements de pull over press afin de travailler les triceps et la poitrine.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Extension des triceps à la machine",
+      "description": "Cet exercice se fait sur une machine spécifique en effectuant des extensions des triceps pour renforcer ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps bras à 180 degrés avec barre ou haltères",
+      "description": "Cet exercice consiste à effectuer des extensions des triceps avec les bras à 180 degrés en utilisant une barre ou des haltères pour cibler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps buste penché à la poulie haute",
+      "description": "Cet exercice implique de faire des extensions des triceps avec le buste penché à la poulie haute pour travailler ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Pompes prise serrée au sol",
+      "description": "Cet exercice consiste à effectuer des pompes avec une prise serrée au sol pour cibler les triceps et la poitrine.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Tate Press avec haltères",
+      "description": "Cet exercice se fait en utilisant des haltères pour effectuer des tate press afin de travailler les triceps et la poitrine.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Tate Press à un bras avec haltère",
+      "description": "Cet exercice implique de faire des tate press à un bras en utilisant un haltère pour cibler les triceps et la poitrine.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["chest"]
+    },
+    {
+      "nom": "Extension des triceps à la poulie avec la corde",
+      "description": "Cet exercice consiste à effectuer des extensions des triceps à la poulie en utilisant une corde pour travailler ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps à la poulie à un bras",
+      "description": "Cet exercice implique de faire des extensions des triceps à la poulie à un bras pour renforcer ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps à la poulie coudes écartés",
+      "description": "Cet exercice se fait à la poulie en effectuant des extensions des triceps avec les coudes écartés pour cibler ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps à la poulie en pronation",
+      "description": "Cet exercice implique de faire des extensions des triceps à la poulie en pronation pour travailler ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Extension des triceps à la poulie en supination",
+      "description": "Cet exercice consiste à effectuer des extensions des triceps à la poulie en supination pour cibler ces muscles.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Kickback avec haltère",
+      "description": "Cet exercice vise à renforcer les triceps en effectuant des mouvements de kickback avec un haltère.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Kickback à la poulie",
+      "description": "Cet exercice consiste à effectuer des kickbacks à la poulie pour travailler les triceps.",
+      "muscle_principal": "triceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl au pupitre avec barre",
+      "description": "Cet exercice consiste à effectuer des curls au pupitre en utilisant une barre pour travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl incliné avec haltères",
+      "description": "Cet exercice implique d'effectuer des curls inclinés avec des haltères pour cibler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl marteau en travers avec haltères",
+      "description": "Cet exercice vise à renforcer les biceps en effectuant des curls marteau en travers avec des haltères.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Traction prise supination non cambré à la barre fixe",
+      "description": "Cet exercice consiste à faire des tractions avec une prise en supination sans cambrer le dos à la barre fixe pour travailler les biceps et les dorsaux.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["back"]
+    },
+    {
+      "nom": "Curl allongé à la poulie basse",
+      "description": "Cet exercice se fait en utilisant une poulie basse pour effectuer des curls allongés et travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl allongé à la poulie haute",
+      "description": "Cet exercice implique de faire des curls allongés à la poulie haute pour cibler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl araignée avec barre",
+      "description": "Cet exercice vise à renforcer les biceps en effectuant des curls araignée avec une barre.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl au pupitre à la poulie",
+      "description": "Cet exercice se fait à l'aide d'une poulie pour effectuer des curls au pupitre et travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl avec haltères",
+      "description": "Cet exercice consiste à effectuer des curls avec des haltères pour cibler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl à la barre",
+      "description": "Cet exercice implique d'effectuer des curls à la barre pour renforcer les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl à la poulie basse",
+      "description": "Cet exercice se fait à la poulie basse en effectuant des curls pour travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl marteau avec haltères",
+      "description": "Cet exercice consiste à effectuer des curls marteau avec des haltères pour cibler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl au pupitre à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des curls au pupitre pour renforcer les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl à la poulie vis à vis",
+      "description": "Cet exercice implique de faire des curls à la poulie vis à vis pour travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl concentré avec haltère",
+      "description": "Cet exercice vise à renforcer les biceps en effectuant des curls concentrés avec un haltère.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl inversé allongé à la poulie basse",
+      "description": "Cet exercice consiste à effectuer des curls inversés allongés à la poulie basse pour travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl inversé allongé à la poulie haute",
+      "description": "Cet exercice implique d'effectuer des curls inversés allongés à la poulie haute pour cibler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl inversé au pupitre avec barre",
+      "description": "Cet exercice vise à renforcer les biceps en effectuant des curls inversés au pupitre avec une barre.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl inversé au pupitre à la poulie",
+      "description": "Cet exercice se fait à l'aide d'une poulie en effectuant des curls inversés au pupitre pour travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl inversé avec barre",
+      "description": "Cet exercice implique d'effectuer des curls inversés avec une barre pour renforcer les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Curl inversé à la poulie",
+      "description": "Cet exercice se fait à la poulie en effectuant des curls inversés pour travailler les biceps.",
+      "muscle_principal": "biceps",
+      "muscles_secondaires": ["forearms"]
+    },
+    {
+      "nom": "Bobine Andrieux - Extension",
+      "description": "Cet exercice consiste à effectuer une extension des poignets selon la méthode de la bobine Andrieux pour renforcer les muscles des avant-bras.",
+      "muscle_principal": "forearms"
+    },
+    {
+      "nom": "Bobine Andrieux - Flexion",
+      "description": "Cet exercice implique de faire une flexion des poignets selon la méthode de la bobine Andrieux pour travailler les muscles des avant-bras.",
+      "muscle_principal": "forearms"
+    },
+    {
+      "nom": "Extension des poignets avec barre",
+      "description": "Cet exercice se fait en utilisant une barre pour effectuer une extension des poignets et renforcer les muscles des avant-bras.",
+      "muscle_principal": "forearms"
+    },
+    {
+      "nom": "Flexion des poignets avec barre",
+      "description": "Cet exercice implique d'effectuer une flexion des poignets à l'aide d'une barre pour travailler les muscles des avant-bras.",
+      "muscle_principal": "forearms"
+    },
+    {
+      "nom": "Crunch abdominaux avec l’Abmat",
+      "description": "Cet exercice consiste à effectuer des crunchs abdominaux en utilisant un Abmat pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Crunch à la poulie haute",
+      "description": "Cet exercice implique d'effectuer des crunchs à la poulie haute pour travailler les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Enroulement de bassin au sol avec l’Abmat",
+      "description": "Cet exercice se fait en effectuant un enroulement de bassin au sol avec un Abmat pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Enroulement de bassin suspendu à la barre fixe",
+      "description": "Cet exercice implique de faire un enroulement de bassin suspendu à une barre fixe pour travailler les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Obliques sur banc à lombaires",
+      "description": "Cet exercice vise à renforcer les obliques en effectuant des mouvements sur un banc à lombaires.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Crunch abdominaux au sol",
+      "description": "Cet exercice consiste à effectuer des crunchs abdominaux au sol pour travailler les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Crunch abdominaux à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des crunchs abdominaux pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Crunch abdominaux sur la Swiss Ball",
+      "description": "Cet exercice implique d'effectuer des crunchs abdominaux sur une Swiss Ball pour travailler les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Crunch oblique au sol",
+      "description": "Cet exercice se fait au sol en effectuant des crunchs obliques pour travailler les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Enroulement de bassin au sol",
+      "description": "Cet exercice consiste à effectuer un enroulement de bassin au sol pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Obliques avec l’Abmat",
+      "description": "Cet exercice implique de faire des mouvements d'obliques en utilisant un Abmat pour travailler les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Obliques sur la Swiss Ball",
+      "description": "Cet exercice vise à renforcer les obliques en effectuant des mouvements sur une Swiss Ball.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Obliques suspendu à la barre fixe",
+      "description": "Cet exercice consiste à faire des mouvements d'obliques en suspension à une barre fixe pour travailler les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Rotation à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des rotations pour renforcer les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Vacuum",
+      "description": "Le vacuum est un exercice de contraction des muscles abdominaux pour renforcer la ceinture abdominale et améliorer la posture.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Crunch abdominaux avec rotation au sol",
+      "description": "Cet exercice consiste à effectuer des crunchs abdominaux avec rotation au sol pour travailler les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Drapeau du dragon",
+      "description": "Le drapeau du dragon est un exercice avancé qui implique de maintenir le corps en suspension horizontal pour renforcer les muscles abdominaux et la stabilité.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Flexion latérale avec haltère",
+      "description": "Cet exercice consiste à effectuer des flexions latérales avec un haltère pour renforcer les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Gainage abdominal frontal",
+      "description": "Le gainage abdominal frontal est un exercice de maintien de la position du corps en planche pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Gainage abdominal oblique",
+      "description": "Le gainage abdominal oblique consiste à maintenir la position du corps en planche en se penchant sur le côté pour travailler les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Rotation debout avec balais",
+      "description": "Cet exercice implique de faire des rotations debout avec un balais pour renforcer les muscles abdominaux obliques.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Hip thrust à la barre",
+      "description": "Cet exercice consiste à effectuer des hip thrusts en utilisant une barre pour renforcer les muscles fessiers et les muscles des hanches.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["hamstrings"]
+    },
+    {
+      "nom": "Soulevé de terre avec barre",
+      "description": "Le soulevé de terre avec une barre est un exercice de musculation qui vise à renforcer les muscles du dos, des jambes et des lombaires.",
+      "muscle_principal": "back",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Soulevé de terre sumo avec barre",
+      "description": "Le soulevé de terre sumo avec une barre est une variation du soulevé de terre qui cible davantage les muscles adducteurs et les fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["hamstrings", "adductors"]
+    },
+    {
+      "nom": "Extension inversée à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des extensions inversées pour renforcer les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["hamstrings"]
+    },
+    {
+      "nom": "Fente arrière glissée avec Valslide",
+      "description": "Cet exercice implique de faire des fentes arrière glissées en utilisant des Valslides pour travailler les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Fente à la Smith machine",
+      "description": "Cet exercice consiste à effectuer des fentes à la Smith machine pour renforcer les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Abducteurs allongé avec lest cheville",
+      "description": "Cet exercice se fait en utilisant un lest à la cheville pour effectuer des mouvements d'abduction allongé et renforcer les muscles abducteurs des hanches.",
+      "muscle_principal": "abductors"
+    },
+    {
+      "nom": "Abducteurs assis à la machine",
+      "description": "Cet exercice implique de faire des mouvements d'abduction des hanches tout en étant assis à une machine pour renforcer les muscles abducteurs.",
+      "muscle_principal": "abductors"
+    },
+    {
+      "nom": "Abducteurs à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des mouvements d'abduction des hanches pour renforcer les muscles abducteurs.",
+      "muscle_principal": "abductors"
+    },
+    {
+      "nom": "Abducteurs à la poulie",
+      "description": "Cet exercice implique de faire des mouvements d'abduction des hanches à la poulie pour travailler les muscles abducteurs.",
+      "muscle_principal": "abductors"
+    },
+    {
+      "nom": "Extension de la hanche à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des extensions de la hanche pour renforcer les muscles des hanches.",
+      "muscle_principal": "glutes"
+    },
+    {
+      "nom": "Fente avec barre",
+      "description": "Cet exercice consiste à effectuer des fentes avec une barre pour renforcer les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Fente en marchant avec barre ou haltères",
+      "description": "Cet exercice implique de faire des fentes en marchant tout en tenant une barre ou des haltères pour travailler les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Fente en reculant avec barre ou haltères",
+      "description": "Cet exercice consiste à effectuer des fentes en reculant tout en tenant une barre ou des haltères pour renforcer les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Hack squat à la machine",
+      "description": "Le hack squat à la machine est un exercice de musculation qui vise à renforcer les muscles des jambes, en particulier les quadriceps et les fessiers.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Presse à cuisses allongé",
+      "description": "La presse à cuisses allongé est un exercice qui cible les muscles des jambes, en mettant l'accent sur les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Presse à cuisses assis",
+      "description": "La presse à cuisses assis est un exercice de musculation qui sollicite les muscles des jambes, en particulier les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Presse à cuisses incliné",
+      "description": "La presse à cuisses incliné est un exercice qui vise à renforcer les muscles des jambes, en mettant l'accent sur les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat avant avec barre",
+      "description": "Le squat avant avec une barre est un exercice de musculation qui cible les muscles des jambes, en mettant l'accent sur les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat avec barre derrière la nuque",
+      "description": "Le squat avec une barre derrière la nuque est un exercice qui sollicite les muscles des jambes, en mettant l'accent sur les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat sumo avec barre",
+      "description": "Le squat sumo avec une barre est une variation du squat qui cible davantage les adducteurs et les fessiers.",
+      "muscle_principal": "adductors",
+      "muscles_secondaires": ["glutes", "quadriceps"]
+    },
+    {
+      "nom": "Fente latérale avec barre",
+      "description": "La fente latérale avec une barre est un exercice qui vise à renforcer les muscles des jambes, en mettant l'accent sur les adducteurs et les abducteurs.",
+      "muscle_principal": "adductors",
+      "muscles_secondaires": ["abductors", "quadriceps"]
+    },
+    {
+      "nom": "Gobelet Squat avec haltère",
+      "description": "Le goblet squat avec un haltère est un exercice de musculation qui cible les muscles des jambes, en mettant l'accent sur les quadriceps et les fessiers.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Hack squat avec une barre",
+      "description": "Le hack squat avec une barre est un exercice de musculation qui vise à renforcer les muscles des jambes, en particulier les quadriceps et les fessiers.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Montée sur banc avec barre ou haltères",
+      "description": "Cet exercice consiste à effectuer des montées sur un banc tout en tenant une barre ou des haltères pour travailler les muscles des jambes et des fessiers.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["quadriceps", "hamstrings"]
+    },
+    {
+      "nom": "Squat avec ceinture de lest",
+      "description": "Le squat avec une ceinture de lest est un exercice de musculation qui vise à renforcer les muscles des jambes, en particulier les quadriceps et les fessiers, en ajoutant du poids avec une ceinture.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat à la machine",
+      "description": "Le squat à la machine est un exercice de musculation qui cible les muscles des jambes, en mettant l'accent sur les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat à la machine à mollets",
+      "description": "Le squat à la machine à mollets est un exercice qui sollicite les muscles des mollets en effectuant un mouvement de squat.",
+      "muscle_principal": "calves"
+    },
+    {
+      "nom": "Squat à la Smith machine",
+      "description": "Le squat à la Smith machine est un exercice de musculation qui vise à renforcer les muscles des jambes, en particulier les quadriceps.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat à une jambe au poids de corps",
+      "description": "Le squat à une jambe au poids de corps est un exercice de musculation qui cible les muscles des jambes en utilisant le poids corporel comme résistance.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat bulgare avec barre ou haltères",
+      "description": "Le squat bulgare avec une barre ou des haltères est un exercice qui sollicite les muscles des jambes, en particulier les quadriceps, en effectuant des squats avec une jambe en appui sur un banc.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Adducteurs assis à la machine",
+      "description": "Cet exercice implique de faire des mouvements d'adduction des jambes tout en étant assis à une machine pour renforcer les muscles adducteurs.",
+      "muscle_principal": "adductors"
+    },
+    {
+      "nom": "Adducteurs à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des mouvements d'adduction des jambes pour renforcer les muscles adducteurs.",
+      "muscle_principal": "adductors"
+    },
+    {
+      "nom": "Adducteurs à la poulie",
+      "description": "Cet exercice implique de faire des mouvements d'adduction des jambes à la poulie pour travailler les muscles adducteurs.",
+      "muscle_principal": "adductors"
+    },
+    {
+      "nom": "Flexion de la hanche à une jambe à la machine",
+      "description": "Cet exercice se fait à une machine spécifique en effectuant des flexions de la hanche à une jambe pour renforcer les muscles des hanches et des jambes.",
+      "muscle_principal": "hamstrings"
+    },
+    {
+      "nom": "Leg extension allongé à la machine",
+      "description": "Le leg extension allongé à la machine est un exercice qui cible les muscles des quadriceps en effectuant des extensions de jambes allongé.",
+      "muscle_principal": "quadriceps"
+    },
+    {
+      "nom": "Leg extension assis à la machine",
+      "description": "Le leg extension assis à la machine est un exercice de musculation qui sollicite les muscles des quadriceps en effectuant des extensions de jambes tout en étant assis.",
+      "muscle_principal": "quadriceps"
+    },
+    {
+      "nom": "Relevé de buste au sol ou sur banc incliné",
+      "description": "Cet exercice consiste à effectuer des relevés du buste soit au sol, soit sur un banc incliné pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Relevé de genoux allongé au sol ou sur banc incliné",
+      "description": "Le relevé de genoux allongé au sol ou sur un banc incliné est un exercice qui cible les muscles abdominaux en effectuant des élévations des genoux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Relevé de genoux sur banc",
+      "description": "Cet exercice consiste à effectuer des relevés des genoux tout en étant sur un banc pour renforcer les muscles abdominaux.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Relevé de genoux suspendu à la barre fixe",
+      "description": "Le relevé de genoux suspendu à la barre fixe est un exercice qui cible les muscles abdominaux en effectuant des élévations des genoux tout en suspendant le corps à une barre fixe.",
+      "muscle_principal": "abs"
+    },
+    {
+      "nom": "Sissy squat",
+      "description": "Le sissy squat est un exercice de musculation qui vise à renforcer les muscles des quadriceps en effectuant une extension des jambes tout en maintenant le buste droit.",
+      "muscle_principal": "quadriceps"
+    },
+    {
+      "nom": "Sissy squat à la presse allongé",
+      "description": "Le sissy squat à la presse allongé est une variation du sissy squat qui cible les muscles des quadriceps en effectuant une extension des jambes tout en maintenant le buste droit avec une presse.",
+      "muscle_principal": "quadriceps"
+    },
+    {
+      "nom": "Squat avec haltères",
+      "description": "Le squat avec des haltères est un exercice de musculation qui cible les muscles des jambes, en particulier les quadriceps et les fessiers, en utilisant des haltères comme résistance.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Squat indien",
+      "description": "Le squat indien est un exercice de musculation qui vise à renforcer les muscles des jambes, en particulier les quadriceps et les fessiers, en utilisant une position spécifique.",
+      "muscle_principal": "quadriceps",
+      "muscles_secondaires": ["glutes", "hamstrings"]
+    },
+    {
+      "nom": "Glute Ham Raise au banc",
+      "description": "Le Glute Ham Raise au banc est un exercice qui cible les muscles des fessiers et des ischio-jambiers, en particulier les muscles du bas du dos.",
+      "muscle_principal": "glutes",
+      "muscles_secondaires": ["hamstrings", "back"]
+    },
+    {
+      "nom": "Leg curl assis à la machine",
+      "description": "Le leg curl assis à la machine est un exercice de musculation qui vise à renforcer les muscles des ischio-jambiers en effectuant des flexions des jambes tout en étant assis.",
+      "muscle_principal": "hamstrings"
+    },
+    {
+      "nom": "Extension au banc à lombaires à 45 degrés",
+      "description": "L'extension au banc à lombaires à 45 degrés est un exercice qui vise à renforcer les muscles du bas du dos en effectuant des extensions du haut du corps.",
+      "muscle_principal": "back"
+    },
+    {
+      "nom": "Good Morning avec barre",
+      "description": "Le Good Morning avec une barre est un exercice de musculation qui sollicite les muscles des ischio-jambiers et du bas du dos en effectuant des flexions du buste vers l'avant tout en maintenant la barre sur le dos.",
+      "muscle_principal": "hamstrings",
+      "muscles_secondaires": ["back"]
+    },
+    {
+      "nom": "Leg curl allongé à la machine",
+      "description": "Le leg curl allongé à la machine est un exercice qui cible les muscles des ischio-jambiers en effectuant des flexions des jambes tout en étant allongé sur la machine.",
+      "muscle_principal": "hamstrings"
+    },
+    {
+      "nom": "Leg curl debout à une jambe à la machine",
+      "description": "Le leg curl debout à une jambe à la machine est un exercice de musculation qui vise à renforcer les muscles des ischio-jambiers en effectuant des flexions d'une jambe à la fois tout en étant debout.",
+      "muscle_principal": "hamstrings"
+    },
+    {
+      "nom": "Leg curl debout à une jambe à la poulie",
+      "description": "Le leg curl debout à une jambe à la poulie est un exercice qui cible les muscles des ischio-jambiers en effectuant des flexions d'une jambe à la fois tout en utilisant une poulie comme résistance.",
+      "muscle_principal": "hamstrings"
+    },
+    {
+      "nom": "Extension au banc à lombaires à 90 degrés",
+      "description": "L'extension au banc à lombaires à 90 degrés est un exercice qui cible les muscles du bas du dos en effectuant des extensions du haut du corps à un angle de 90 degrés par rapport au sol.",
+      "muscle_principal": "back"
+    },
+    {
+      "nom": "Soulevé de terre jambes tendues avec barre ou haltères",
+      "description": "Le soulevé de terre jambes tendues avec une barre ou des haltères est un exercice qui vise à renforcer principalement les muscles des ischio-jambiers en effectuant des soulevés de poids depuis le sol avec les jambes tendues.",
+      "muscle_principal": "hamstrings"
+    },
+    {
+      "nom": "Enroulement/Déroulement au banc à lombaires",
+      "description": "L'enroulement/déroulement au banc à lombaires est un exercice qui vise à renforcer les muscles du bas du dos en effectuant des mouvements d'enroulement et de déroulement sur un banc spécifique.",
+      "muscle_principal": "back"
+    }
+  ]
+}

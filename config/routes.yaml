@@ -1,3 +1,11 @@
-controllers:
-    resource: ../src/Controller/
+core_controllers:
+    resource: ../src/Core/Controller/
+    type: attribute
+
+dashboard_controller:
+    resource: ../src/Dashboard/Controller/
+    type: attribute
+
+exercise_controllers:
+    resource: ../src/Session/Controller/
     type: attribute

@@ -1,0 +1,19 @@
+label:
+  name: Nom
+  uniqueName: Nom
+  mainMuscle: Muscle principal travaillé
+  secondaryMuscles: Muscles secondaires travaillés
+  description: Description
+  exercise: Exercice
+  exercises: Exercices
+  nbSet: Nombre de séries
+  nbReps: Nombre de répétitions
+  tempo: Tempo (WXYZ)
+  number: Numéro
+
+action:
+  remove_favorite: Supprimer des favoris
+  add_favorite: Ajouter aux favoris
+  duplicate: Dupliquer
+  archive: Archiver
+  unarchive: Désarchiver

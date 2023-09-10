@@ -1,0 +1,19 @@
+{% extends 'layout/index.html.twig' %}
+
+{% block table_pre_head %}
+    {% set index_url = ea_url().setController('App\\Session\\Controller\\SessionCrudController').setAction('index')
+    %}
+    {% set active_view = app.request.query.get('view', 'not_archived') %}
+    <ul class="nav nav-tabs nav-bordered mb-3">
+        <li class="nav-item">
+            <a href="{{ index_url.set('view', 'not_archived') }}" class="nav-link {{ active_view == 'not_archived' ? 'active' }}">
+                Non-archivées
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{ index_url.set('view', 'archived') }}" class="nav-link {{ active_view == 'archived' ? 'active' }}">
+                Archivées
+            </a>
+        </li>
+    </ul>
+{% endblock %}

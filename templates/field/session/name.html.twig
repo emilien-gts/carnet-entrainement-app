@@ -1,0 +1,8 @@
+{% set session = entity.instance %}
+
+{% if session %}
+<span>
+    {% if session.isFavorite %}<i class="action-icon fa fa-star"></i>{% else %}<i class="action-icon fa fa-star-o"></i>{% endif %}
+    <span>{{ session.uniqueName }}</span>
+</span>
+{% endif %}

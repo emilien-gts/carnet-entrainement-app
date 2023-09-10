@@ -17,7 +17,7 @@ class Exercise
     use IdTrait;
 
     #[ORM\Column(type: Types::STRING, unique: true)]
-    public ?string $name = null;
+    public string $name;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
     public ?string $description = null;
@@ -32,10 +32,15 @@ class Exercise
     public array $secondaryMuscles = [];
 
     /**
-     * @return array<int, MuscleEnum|null>
+     * @return array<int, MuscleEnum>
      */
     public function getSecondaryMuscles(): array
     {
-        return \array_map(fn (string $muscle) => MuscleEnum::tryFrom($muscle), $this->secondaryMuscles);
+        return \array_map(fn (string $muscle) => MuscleEnum::from($muscle), $this->secondaryMuscles);
+    }
+
+    public function __toString(): string
+    {
+        return $this->name;
     }
 }

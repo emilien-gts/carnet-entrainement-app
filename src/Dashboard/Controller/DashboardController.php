@@ -2,7 +2,9 @@
 
 namespace App\Dashboard\Controller;
 
+use App\Session\Controller\SessionCrudController;
 use App\Session\Entity\Exercise;
+use App\Session\Entity\Session;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -31,6 +33,8 @@ final class DashboardController extends AbstractDashboardController
             MenuItem::linkToDashboard('Dashboard', 'fa fa-home'),
 
             MenuItem::section('Séance'),
+            MenuItem::linkToCrud('Séances', 'fa fa-dumbbell', Session::class)
+                ->setQueryParameter('view', SessionCrudController::INDEX_VIEW_NOT_ARCHIVED),
             MenuItem::linkToCrud('Exercices', 'fa fa-dumbbell', Exercise::class),
         ];
     }

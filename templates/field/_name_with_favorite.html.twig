@@ -1,0 +1,6 @@
+{% if instance %}
+    <span>
+        {% if instance.isFavorite %}<i class="action-icon fa fa-star"></i>{% else %}<i class="action-icon fa fa-star-o"></i>{% endif %}
+        <span>{{ instance.uniqueName }}</span>
+    </span>
+{% endif %}

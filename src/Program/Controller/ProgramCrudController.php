@@ -1,17 +1,17 @@
 <?php
 
-namespace App\Session\Controller;
+namespace App\Program\Controller;
 
 use App\Core\Controller\BaseViewCrudController;
 use App\Core\Trait\Controller\ArchiveBatchActionTrait;
 use App\Core\Trait\Controller\FavoriteBatchActionTrait;
-use App\Session\Entity\Session;
-use App\Session\Form\SessionExerciseType;
-use App\Session\Service\SessionManager;
+use App\Core\Utils;
+use App\Program\Entity\Program;
+use App\Program\Service\ProgramManager;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
-use EasyCorp\Bundle\EasyAdminBundle\Field\CollectionField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 use Psr\Container\ContainerExceptionInterface;
@@ -21,29 +21,29 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
 
 #[AsController]
-final class SessionCrudController extends BaseViewCrudController
+final class ProgramCrudController extends BaseViewCrudController
 {
     use FavoriteBatchActionTrait;
     use ArchiveBatchActionTrait;
 
-    public function __construct(RequestStack $requestStack, private readonly SessionManager $manager)
+    public function __construct(RequestStack $requestStack, private readonly ProgramManager $manager)
     {
         parent::__construct($requestStack);
     }
 
     public static function getEntityFqcn(): string
     {
-        return Session::class;
+        return Program::class;
     }
 
     public function configureCrud(Crud $crud): Crud
     {
         $crud->renderContentMaximized();
-        $crud->setEntityLabelInSingular('label.session');
-        $crud->setEntityLabelInPlural('label.sessions');
-        $crud->setSearchFields(['id', 'name', 'description', 'exercises.exercise.name']);
+        $crud->setEntityLabelInSingular('label.program');
+        $crud->setEntityLabelInPlural('label.programs');
+        $crud->setSearchFields(['id', 'name', 'description']);
 
-        $crud->overrideTemplate('crud/index', 'session/index.html.twig');
+        $crud->overrideTemplate('crud/index', 'program/index.html.twig');
 
         return $crud;
     }
@@ -70,7 +70,7 @@ final class SessionCrudController extends BaseViewCrudController
     public function configureFields(string $pageName): iterable
     {
         yield TextField::new('name', 'label.name')
-            ->setTemplatePath('field/session/name.html.twig')
+            ->setTemplatePath('field/program/name.html.twig')
             ->hideOnForm();
 
         yield TextField::new('name', 'label.name')
@@ -80,11 +80,10 @@ final class SessionCrudController extends BaseViewCrudController
         yield TextareaField::new('description', 'label.description')
             ->hideOnIndex();
 
-        yield CollectionField::new('exercises', 'label.exercises')
-            ->hideOnIndex()
-            ->allowAdd()
-            ->allowDelete()
-            ->setEntryType(SessionExerciseType::class);
+        foreach (Utils::day_of_weeks() as $dayOfWeek) {
+            yield AssociationField::new($dayOfWeek, 'label.'.$dayOfWeek)
+                ->setFormTypeOption('required', false);
+        }
     }
 
     /**
@@ -93,14 +92,14 @@ final class SessionCrudController extends BaseViewCrudController
      */
     public function duplicate(): Response
     {
-        /** @var Session $session */
-        $session = $this->getEntityInstance();
-        $this->throwIfNull($session);
+        /** @var Program $program */
+        $program = $this->getEntityInstance();
+        $this->throwIfNull($program);
 
-        $s = $this->manager->duplicate($session);
-        $this->persistAndFlush($s);
+        $p = $this->manager->duplicate($program);
+        $this->persistAndFlush($p);
 
-        $targetUrl = $this->generateEaUrl(self::class, Crud::PAGE_EDIT, ['entityId' => $s->id]);
+        $targetUrl = $this->generateEaUrl(self::class, Crud::PAGE_EDIT, ['entityId' => $p->id]);
 
         return $this->redirect($targetUrl);
     }

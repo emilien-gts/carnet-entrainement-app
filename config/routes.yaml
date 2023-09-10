@@ -9,3 +9,7 @@ dashboard_controller:
 exercise_controllers:
     resource: ../src/Session/Controller/
     type: attribute
+
+program_controllers:
+    resource: ../src/Program/Controller/
+    type: attribute

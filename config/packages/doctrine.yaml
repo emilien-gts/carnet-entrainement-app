@@ -16,6 +16,12 @@ doctrine:
                 prefix: 'App\Session\Entity'
                 alias: Session
 
+            Program:
+                is_bundle: false
+                dir: '%kernel.project_dir%/src/Program/Entity'
+                prefix: 'App\Program\Entity'
+                alias: Program
+
 when@test:
     doctrine:
         dbal:

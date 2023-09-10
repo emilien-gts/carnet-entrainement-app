@@ -2,7 +2,8 @@
 
 namespace App\Dashboard\Controller;
 
-use App\Session\Controller\SessionCrudController;
+use App\Core\Controller\BaseViewCrudController;
+use App\Program\Entity\Program;
 use App\Session\Entity\Exercise;
 use App\Session\Entity\Session;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
@@ -29,13 +30,18 @@ final class DashboardController extends AbstractDashboardController
 
     public function configureMenuItems(): iterable
     {
-        return [
-            MenuItem::linkToDashboard('Dashboard', 'fa fa-home'),
+        // Dashboard
+        yield MenuItem::linkToDashboard('label.dashboard', 'fa fa-home');
 
-            MenuItem::section('Séance'),
-            MenuItem::linkToCrud('Séances', 'fa fa-dumbbell', Session::class)
-                ->setQueryParameter('view', SessionCrudController::INDEX_VIEW_NOT_ARCHIVED),
-            MenuItem::linkToCrud('Exercices', 'fa fa-dumbbell', Exercise::class),
-        ];
+        // Program
+        yield MenuItem::section('label.programs');
+        yield MenuItem::linkToCrud('label.programs', 'fa fa-dumbbell', Program::class)
+            ->setQueryParameter('view', BaseViewCrudController::VIEW_NOT_ARCHIVED);
+
+        // Session & Exercise
+        yield MenuItem::section('label.sessions');
+        yield MenuItem::linkToCrud('label.sessions', 'fa fa-dumbbell', Session::class)
+            ->setQueryParameter('view', BaseViewCrudController::VIEW_NOT_ARCHIVED);
+        yield MenuItem::linkToCrud('label.exercises', 'fa fa-dumbbell', Exercise::class);
     }
 }

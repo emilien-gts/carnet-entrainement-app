@@ -107,14 +107,14 @@ abstract class BaseCrudController extends AbstractCrudController
     }
 
     /**
-     * @param class-string $classname
+     * @param string|class-string $classname
      *
      * @throws ContainerExceptionInterface
      * @throws NotFoundExceptionInterface
      */
     public function findOrThrow(string $classname, int $id): mixed
     {
-        $entity = $this->em()->find($classname, $id);
+        $entity = $this->em()->find($classname, $id); /* @phpstan-ignore-line */
         if ($entity) {
             return $entity;
         }

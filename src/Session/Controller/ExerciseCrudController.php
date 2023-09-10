@@ -15,7 +15,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 use EasyCorp\Bundle\EasyAdminBundle\Filter\ChoiceFilter;
 use Symfony\Component\Form\Extension\Core\Type\EnumType;
 
-class ExerciseCrudController extends BaseCrudController
+final class ExerciseCrudController extends BaseCrudController
 {
     public static function getEntityFqcn(): string
     {
@@ -25,8 +25,8 @@ class ExerciseCrudController extends BaseCrudController
     public function configureCrud(Crud $crud): Crud
     {
         $crud->renderContentMaximized();
-        $crud->setEntityLabelInSingular('Exercice');
-        $crud->setEntityLabelInPlural('Exercices');
+        $crud->setEntityLabelInSingular('label.exercise');
+        $crud->setEntityLabelInPlural('label.exercises');
 
         $crud->setDefaultSort(['name' => 'ASC']);
 

@@ -21,14 +21,4 @@ class SessionManager
 
         return $s;
     }
-
-    public function archive(Session $session, bool $toArchive): Session
-    {
-        $session->isArchived = $toArchive;
-        if ($toArchive) {
-            $session->isFavorite = false;
-        }
-
-        return $session;
-    }
 }

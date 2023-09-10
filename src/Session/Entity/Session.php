@@ -2,6 +2,10 @@
 
 namespace App\Session\Entity;
 
+use App\Core\Contracts\ArchiveAwareInterface;
+use App\Core\Contracts\FavoriteAwareInterface;
+use App\Core\Trait\ArchiveTrait;
+use App\Core\Trait\FavoriteTrait;
 use App\Core\Trait\IdTrait;
 use App\Session\Validator\Constraint\SessionConstraint;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -12,18 +16,14 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity]
 #[SessionConstraint]
-class Session
+class Session implements FavoriteAwareInterface, ArchiveAwareInterface
 {
     use IdTrait;
+    use FavoriteTrait;
+    use ArchiveTrait;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
     public ?string $name = null;
-
-    #[ORM\Column(type: Types::BOOLEAN, nullable: false, options: ['default' => false])]
-    public bool $isArchived = false;
-
-    #[ORM\Column(type: Types::BOOLEAN, nullable: false, options: ['default' => false])]
-    public bool $isFavorite = false;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
     public ?string $description = null;
@@ -66,14 +66,14 @@ class Session
         }
     }
 
-    public function toggleFavorite(): void
-    {
-        $this->isFavorite = !$this->isFavorite;
-    }
-
     public function __clone(): void
     {
         $this->id = null;
         $this->exercises = new ArrayCollection();
+    }
+
+    public function __toString(): string
+    {
+        return $this->getUniqueName();
     }
 }

@@ -10,6 +10,19 @@ label:
   nbReps: Nombre de répétitions
   tempo: Tempo (WXYZ)
   number: Numéro
+  program: Programme
+  programs: Programmes
+  dashboard: Tableau de bord
+  session: Séance
+  sessions: Séances
+
+  monday: Lundi
+  tuesday: Mardi
+  wednesday: Mercredi
+  thursday: Jeudi
+  friday: Vendredi
+  saturday: Samedi
+  sunday: Dimanche
 
 action:
   remove_favorite: Supprimer des favoris

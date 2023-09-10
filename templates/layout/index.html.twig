@@ -93,9 +93,9 @@
     {% set num_results = entities|length %}
 
     <table class="table datagrid {{ entities is empty ? 'datagrid-empty' }}">
+        {% block table_pre_content %}{% endblock %}
         {% if num_results > 0 %}
             <thead>
-            {% block table_pre_head %}{% endblock %}
             {% block table_head %}
                 <tr>
                     {% if has_batch_actions %}

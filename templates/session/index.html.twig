@@ -1,8 +1,7 @@
 {% extends 'layout/index.html.twig' %}
 
-{% block table_pre_head %}
-    {% set index_url = ea_url().setController('App\\Session\\Controller\\SessionCrudController').setAction('index')
-    %}
+{% block table_pre_content %}
+    {% set index_url = ea_url().setController('App\\Session\\Controller\\SessionCrudController').setAction('index') %}
     {% set active_view = app.request.query.get('view', 'not_archived') %}
     <ul class="nav nav-tabs nav-bordered mb-3">
         <li class="nav-item">

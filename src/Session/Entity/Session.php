@@ -4,6 +4,7 @@ namespace App\Session\Entity;
 
 use App\Core\Contracts\ArchiveAwareInterface;
 use App\Core\Contracts\FavoriteAwareInterface;
+use App\Core\Contracts\Versioned;
 use App\Core\Trait\ArchiveTrait;
 use App\Core\Trait\FavoriteTrait;
 use App\Core\Trait\IdTrait;
@@ -19,7 +20,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 #[ORM\Entity]
 #[SessionConstraint]
 #[ORM\HasLifecycleCallbacks]
-class Session implements FavoriteAwareInterface, ArchiveAwareInterface
+class Session implements FavoriteAwareInterface, ArchiveAwareInterface, Versioned
 {
     use IdTrait;
     use FavoriteTrait;
@@ -77,7 +78,10 @@ class Session implements FavoriteAwareInterface, ArchiveAwareInterface
         }
     }
 
-    public function sameExercisesAs(SessionVersion $version): bool
+    /**
+     * @param SessionVersion $version
+     */
+    public function sameAs($version): bool
     {
         $exercices = $this->exercises->map(fn (SessionExercise $se) => $se->toArray())->toArray();
 
@@ -92,6 +96,11 @@ class Session implements FavoriteAwareInterface, ArchiveAwareInterface
     public function getCurrentVersionNumber(): int
     {
         return $this->versions->count() ?: 0;
+    }
+
+    public function toArray(): array
+    {
+        return ['id' => $this->id ?? '', 'version' => $this->getCurrentVersionNumber()];
     }
 
     public function __clone(): void

@@ -13,6 +13,7 @@ trait ArchiveTrait
     public function setIsArchived(bool $isArchived): self
     {
         $this->isArchived = $isArchived;
+        $this->setIsFavorite(false);
 
         return $this;
     }

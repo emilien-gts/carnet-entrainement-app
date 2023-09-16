@@ -4,15 +4,20 @@ namespace App\Program\Entity;
 
 use App\Core\Contracts\ArchiveAwareInterface;
 use App\Core\Contracts\FavoriteAwareInterface;
+use App\Core\Contracts\Versioned;
 use App\Core\Trait\ArchiveTrait;
 use App\Core\Trait\FavoriteTrait;
 use App\Core\Trait\IdTrait;
+use App\Core\Utils;
+use App\Program\Repository\ProgramRepository;
 use App\Session\Entity\Session;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity]
-class Program implements FavoriteAwareInterface, ArchiveAwareInterface
+#[ORM\Entity(repositoryClass: ProgramRepository::class)]
+class Program implements FavoriteAwareInterface, ArchiveAwareInterface, Versioned
 {
     use IdTrait;
     use FavoriteTrait;
@@ -47,6 +52,17 @@ class Program implements FavoriteAwareInterface, ArchiveAwareInterface
     #[ORM\ManyToOne(targetEntity: Session::class)]
     public ?Session $sunday = null;
 
+    /**
+     * @var ArrayCollection<int, ProgramVersion>
+     */
+    #[ORM\OneToMany(mappedBy: 'program', targetEntity: ProgramVersion::class, cascade: ['ALL'])]
+    public Collection $versions;
+
+    public function __construct()
+    {
+        $this->versions = new ArrayCollection();
+    }
+
     public function getUniqueName(): string
     {
         $s = \sprintf('Programme %03d', $this->id);
@@ -55,6 +71,39 @@ class Program implements FavoriteAwareInterface, ArchiveAwareInterface
         }
 
         return $s;
+    }
+
+    /**
+     * @return ArrayCollection<int, Session>
+     */
+    public function getSessions(): ArrayCollection
+    {
+        $collection = new ArrayCollection();
+        foreach (Utils::day_of_weeks() as $dayOfWeek) {
+            $collection->add($this->$dayOfWeek);
+        }
+
+        return $collection;
+    }
+
+    /**
+     * @param ProgramVersion $version
+     */
+    public function sameAs($version): bool
+    {
+        $sessions = $this->getSessions()->map(fn (Session $s) => $s->id)->toArray();
+
+        return Utils::are_arrays_equal($sessions, $version->data);
+    }
+
+    public function getCurrentVersion(): ?ProgramVersion
+    {
+        return $this->versions->last() ?: null;
+    }
+
+    public function getCurrentVersionNumber(): int
+    {
+        return $this->versions->count() ?: 0;
     }
 
     public function __clone(): void

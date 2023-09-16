@@ -8,6 +8,7 @@ use App\Core\Trait\Controller\FavoriteBatchActionTrait;
 use App\Core\Utils;
 use App\Program\Entity\Program;
 use App\Program\Service\ProgramManager;
+use Doctrine\ORM\EntityManagerInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
@@ -84,6 +85,32 @@ final class ProgramCrudController extends BaseViewCrudController
             yield AssociationField::new($dayOfWeek, 'label.'.$dayOfWeek)
                 ->setFormTypeOption('required', false);
         }
+    }
+
+    /**
+     * @param Program $entityInstance
+     */
+    public function persistEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    {
+        $version = $this->manager->createVersion($entityInstance);
+        if ($version) {
+            $entityManager->persist($version);
+        }
+
+        parent::persistEntity($entityManager, $entityInstance);
+    }
+
+    /**
+     * @param Program $entityInstance
+     */
+    public function updateEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    {
+        $version = $this->manager->createVersion($entityInstance);
+        if ($version) {
+            $entityManager->persist($version);
+        }
+
+        parent::updateEntity($entityManager, $entityInstance);
     }
 
     /**

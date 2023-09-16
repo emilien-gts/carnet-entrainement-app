@@ -2,16 +2,21 @@
 
 namespace App\Session\Service;
 
+use App\Program\Repository\ProgramRepository;
 use App\Session\Entity\Session;
 use App\Session\Entity\SessionExercise;
 use App\Session\Entity\SessionVersion;
 
 class SessionManager
 {
+    public function __construct(private readonly ProgramRepository $programRepository)
+    {
+    }
+
     public function createVersion(Session $session): ?SessionVersion
     {
         $currentVersion = $session->getCurrentVersion();
-        if ($currentVersion && $session->sameExercisesAs($currentVersion)) {
+        if ($currentVersion && $session->sameAs($currentVersion)) {
             return null;
         }
 
@@ -38,5 +43,12 @@ class SessionManager
         }
 
         return $s;
+    }
+
+    public function isLinkToProgram(Session $session): bool
+    {
+        $programs = $this->programRepository->findBySession($session);
+
+        return !empty($programs);
     }
 }

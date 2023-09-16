@@ -68,6 +68,25 @@ final class SessionCrudController extends BaseViewCrudController
         return $actions;
     }
 
+    /**
+     * @param Session $entityInstance
+     *
+     * @throws ContainerExceptionInterface
+     * @throws NotFoundExceptionInterface
+     */
+    public function deleteEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    {
+        if ($this->manager->isLinkToProgram($entityInstance)) {
+            $this->addFlash('danger', \sprintf('Impossible de supprimer la séance "%s", la séance a été archivée', $entityInstance));
+            $entityInstance->setIsArchived(true);
+            $this->persistAndFlush($entityInstance);
+
+            return;
+        }
+
+        parent::deleteEntity($entityManager, $entityInstance);
+    }
+
     public function configureFields(string $pageName): iterable
     {
         yield TextField::new('name', 'label.name')

@@ -27,7 +27,7 @@ abstract class BaseViewCrudController extends BaseCrudController
         self::VIEW_NOT_ARCHIVED,
     ];
 
-    public function __construct(private readonly RequestStack $requestStack)
+    public function __construct(protected readonly RequestStack $requestStack)
     {
     }
 

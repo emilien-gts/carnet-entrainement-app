@@ -8,7 +8,6 @@ use App\Core\Contracts\Versioned;
 use App\Core\Trait\ArchiveTrait;
 use App\Core\Trait\FavoriteTrait;
 use App\Core\Trait\IdTrait;
-use App\Core\Trait\TimestampableTrait;
 use App\Core\Utils;
 use App\Session\Validator\Constraint\SessionConstraint;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -19,13 +18,11 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity]
 #[SessionConstraint]
-#[ORM\HasLifecycleCallbacks]
 class Session implements FavoriteAwareInterface, ArchiveAwareInterface, Versioned
 {
     use IdTrait;
     use FavoriteTrait;
     use ArchiveTrait;
-    use TimestampableTrait;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
     public ?string $name = null;

@@ -1,3 +1,4 @@
 validation:
   one_of_exercises_need_description: L'un des exercices avec le numéro {{number}} a besoin d'une description
   incorrect_tempo: Le tempo {{ value }} est incorrect
+  at_least_one_exercise: Il faut au moins un exercice

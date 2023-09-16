@@ -16,6 +16,12 @@ class SessionValidator extends ConstraintValidator
             throw new UnexpectedValueException($value, Session::class);
         }
 
+        if ($value->exercises->isEmpty()) {
+            $this->context->buildViolation('validation.at_least_one_exercise')
+                ->atPath('exercises')
+                ->addViolation();
+        }
+
         $this->validateComplexExercices($value);
     }
 

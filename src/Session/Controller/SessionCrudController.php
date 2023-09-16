@@ -8,6 +8,7 @@ use App\Core\Trait\Controller\FavoriteBatchActionTrait;
 use App\Session\Entity\Session;
 use App\Session\Form\SessionExerciseType;
 use App\Session\Service\SessionManager;
+use Doctrine\ORM\EntityManagerInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
@@ -85,6 +86,32 @@ final class SessionCrudController extends BaseViewCrudController
             ->allowAdd()
             ->allowDelete()
             ->setEntryType(SessionExerciseType::class);
+    }
+
+    /**
+     * @param Session $entityInstance
+     */
+    public function persistEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    {
+        $version = $this->manager->createVersion($entityInstance);
+        if ($version) {
+            $entityManager->persist($version);
+        }
+
+        parent::persistEntity($entityManager, $entityInstance);
+    }
+
+    /**
+     * @param Session $entityInstance
+     */
+    public function updateEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    {
+        $version = $this->manager->createVersion($entityInstance);
+        if ($version) {
+            $entityManager->persist($version);
+        }
+
+        parent::updateEntity($entityManager, $entityInstance);
     }
 
     /**

@@ -26,12 +26,16 @@ abstract class BaseCrudController extends AbstractCrudController
         $actions->update(Crud::PAGE_INDEX, Action::NEW, function (Action $action) {
             return $action->setIcon('fa fa-plus')->setLabel(false);
         });
+
         $actions->update(Crud::PAGE_INDEX, Action::EDIT, function (Action $action) {
             return $action->setIcon('fa fa-edit');
         });
+
         $actions->update(Crud::PAGE_INDEX, Action::DELETE, function (Action $action) {
             return $action->setIcon('fa fa-trash');
         });
+
+        $actions->remove(Crud::PAGE_EDIT, Action::SAVE_AND_CONTINUE);
 
         return $actions;
     }

@@ -48,6 +48,19 @@ class SessionExercise
         $this->id = null;
     }
 
+    public function toArray(): array
+    {
+        return [
+            'exercise_id' => $this->exercise?->id ?? '',
+            'nb_set' => $this->nbSet ?? '',
+            'nb_reps' => $this->nbReps ?? '',
+            'tempo' => $this->tempo ?? '',
+            'rest' => $this->rest ?? '',
+            'number' => $this->number ?? '',
+            'description' => $this->description ?? '',
+        ];
+    }
+
     public function __toString(): string
     {
         return (string) $this->exercise;

@@ -6,6 +6,7 @@ use App\Core\Controller\BaseViewCrudController;
 use App\Program\Entity\Program;
 use App\Session\Entity\Exercise;
 use App\Session\Entity\Session;
+use App\Training\Entity\Training;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -32,6 +33,10 @@ final class DashboardController extends AbstractDashboardController
     {
         // Dashboard
         yield MenuItem::linkToDashboard('label.dashboard', 'fa fa-home');
+
+        // Program
+        yield MenuItem::section('label.trainings');
+        yield MenuItem::linkToCrud('label.trainings', 'fa fa-person-running', Training::class);
 
         // Program
         yield MenuItem::section('label.programs');

@@ -22,6 +22,12 @@ doctrine:
                 prefix: 'App\Program\Entity'
                 alias: Program
 
+            Training:
+                is_bundle: false
+                dir: '%kernel.project_dir%/src/Training/Entity'
+                prefix: 'App\Training\Entity'
+                alias: Training
+
 when@test:
     doctrine:
         dbal:

@@ -17,7 +17,7 @@ class ProgramManager
 
         $sessions = $program->getSessions()
             ->filter(fn (?Session $s) => null !== $s)
-            ->map(fn (Session $s) => $s->toArray())
+            ->map(fn (Session $s) => $s->toArray()) /* @phpstan-ignore-line */
             ->toArray();
 
         $v = new ProgramVersion($program);

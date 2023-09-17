@@ -63,6 +63,6 @@ class SessionExercise
 
     public function __toString(): string
     {
-        return (string) $this->exercise;
+        return \sprintf('%s %s', $this->exercise, $this->session);
     }
 }

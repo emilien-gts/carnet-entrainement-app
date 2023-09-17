@@ -74,7 +74,7 @@ class Program implements FavoriteAwareInterface, ArchiveAwareInterface, Versione
     }
 
     /**
-     * @return ArrayCollection<int, Session>
+     * @return ArrayCollection<int, Session|null>
      */
     public function getSessions(): ArrayCollection
     {
@@ -91,7 +91,7 @@ class Program implements FavoriteAwareInterface, ArchiveAwareInterface, Versione
      */
     public function sameAs($version): bool
     {
-        $sessions = $this->getSessions()->map(fn (Session $s) => $s->id)->toArray();
+        $sessions = $this->getSessions()->map(fn (Session $s) => $s->id)->toArray(); /* @phpstan-ignore-line */
 
         return Utils::are_arrays_equal($sessions, $version->data);
     }

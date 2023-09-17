@@ -46,6 +46,8 @@ final class SessionCrudController extends BaseViewCrudController
 
         $crud->overrideTemplate('crud/index', 'session/index.html.twig');
 
+        $crud->setDefaultSort(['name' => 'ASC']);
+
         return $crud;
     }
 

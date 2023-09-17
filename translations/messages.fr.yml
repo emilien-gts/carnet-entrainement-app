@@ -15,6 +15,10 @@ label:
   dashboard: Tableau de bord
   session: Séance
   sessions: Séances
+  training: Entrainement
+  trainings: Entrainements
+  date: Date
+  weight: Poids
 
   monday: Lundi
   tuesday: Mardi
@@ -30,3 +34,5 @@ action:
   duplicate: Dupliquer
   archive: Archiver
   unarchive: Désarchiver
+  add_session: Ajouter une séance
+  add_program: Ajouter un programme

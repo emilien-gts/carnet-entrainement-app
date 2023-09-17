@@ -46,6 +46,8 @@ final class ProgramCrudController extends BaseViewCrudController
 
         $crud->overrideTemplate('crud/index', 'program/index.html.twig');
 
+        $crud->setDefaultSort(['name' => 'ASC']);
+
         return $crud;
     }
 

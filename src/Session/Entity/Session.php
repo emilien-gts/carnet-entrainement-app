@@ -35,6 +35,7 @@ class Session implements FavoriteAwareInterface, ArchiveAwareInterface, Versione
      */
     #[ORM\OneToMany(mappedBy: 'session', targetEntity: SessionExercise::class, cascade: ['ALL'])]
     #[Assert\Valid]
+    #[ORM\OrderBy(['number' => 'ASC'])]
     public Collection $exercises;
 
     /**

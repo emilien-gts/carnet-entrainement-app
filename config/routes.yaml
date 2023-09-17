@@ -13,3 +13,7 @@ exercise_controllers:
 program_controllers:
     resource: ../src/Program/Controller/
     type: attribute
+
+training_controllers:
+    resource: ../src/Training/Controller/
+    type: attribute
